@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72acc8349c31c3448ac08991dc568e91, type: 3}
+  m_Name: Map
+  m_EditorClassIdentifier: 
+  foodsForSpawn:
+  - spawnedObject: {fileID: 1747796491262061239, guid: 8eaf2eedb824e0a4fa46820cb2e7c465, type: 3}
+    minAmount: 5
+    maxAmount: 15
+  - spawnedObject: {fileID: 8229733129944869507, guid: 2bf797cff80def34cacd6c10b2125517, type: 3}
+    minAmount: 5
+    maxAmount: 15
+  enemiesForSpawn: []
+  maxObjects: 400
